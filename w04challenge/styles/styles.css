@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color: pink;
+    color: white;
+}
+
+li {
+    text-align: left;
+}
+
+.black-text {
+    color: black;
+}
+
+#title:hover {
+    color: black;
+}
+
+p {
+    font-family: "Open Sans"
+}
+
