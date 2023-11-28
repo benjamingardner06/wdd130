@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&family=Raleway&display=swap');
+
+/* --heading-font: 'Laila', serif;
+--paragraph-font: 'Raleway', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#hero-img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#hero-text {
+    font-family: 'Laila', serif;
+    font-size: 5em;
+    align-self: center;
+    justify-self: center;
+    color: #B5F8FE;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.5fr 1fr 0.2fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    color: #B5F8FE;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-grid img {
+    width: 100%;
+}
+
+.home-background {
+    background-color: #284B63;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    border-radius: 2rem;
+}
+
+.home-grid p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+.home-grid img {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+header {
+    background-color: #51CB20;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+header a img{
+    border-radius: 100%;
+    border: 3px solid black;
+    height: 95px
+}
+
+header a {
+    align-self: center;
+    justify-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    background-color: #51CB20;
+    color: #183345;
+    text-decoration: none;
+    width: 100%;
+    padding: 35px;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+    background-color: #284B63;
+    color: #B5F8FE;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #230C0F;
+    padding: 25px 50px;
+    margin-top: 150px;
+    color: #B5F8FE;
+}
+
+footer p {
+    font-size: 1.8em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer p a {
+    color: #B5F8FE;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Recoloring Text Rules */
+.green-text {
+    color: #51CB20;
+}
+
+.red-text {
+    color: red;
+}
