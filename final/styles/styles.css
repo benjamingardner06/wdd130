@@ -49,6 +49,7 @@ body {
     grid-column: 2/5;
     grid-row: 2/3;
     border-radius: 2rem;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .home-grid p {
@@ -130,6 +131,112 @@ footer p a {
     color: #B5F8FE;
     text-decoration: none;
     font-size: 1.5em;
+}
+
+.floors-grid {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
+    grid-template-rows: 0.1fr 100px 1fr 0.35fr 100px 0.5fr 0.5fr;
+}
+
+.floors-background-1 {
+    background-color: #284B63;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.floors-heading-1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    justify-self: center;
+    z-index: 1;
+    font-family: 'Laila', serif;
+    color:#B5F8FE;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.floors-para-1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color:#B5F8FE;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    align-self: center;
+    margin: 10%;
+}
+
+.floors-img-1 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 90%;
+    align-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.floors-background-2 {
+    background-color: #284B63;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 5/8;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.floors-heading-2 {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    justify-self: center;
+    z-index: 1;
+    font-family: 'Laila', serif;
+    color:#B5F8FE;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.floors-para-2 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    color:#B5F8FE;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    margin: 50px;
+}
+
+.floors-img-2 {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    width: 90%;
+    align-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+ul {
+    grid-row: 7/8;
+    color:#B5F8FE;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    justify-self: left;
+
+}
+
+.floors-list-1 {
+    grid-column: 2/3;
+    margin-left: 50px;
+}
+
+.floors-list-2 {
+    grid-column: 3/4;
+}
+
+.rewards-link {
+    color:#B5F8FE;
+    text-decoration: underline;
 }
 
 /* Recoloring Text Rules */
